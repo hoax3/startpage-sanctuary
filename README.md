@@ -1,3 +1,3 @@
 # startpage-sanctuary
 
-![Sanctuary](pictures/image.png)
+![Sanctuary](pictures/image2.png)
