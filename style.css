@@ -1,0 +1,80 @@
+body {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #20213b;
+}
+.row {
+    margin: 0 10px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+  float: left;
+  width: 22.5%;
+  padding: 5px 20px;
+}
+.card {
+  box-shadow: 2px 2px 2px 2px rgb(7, 7, 7);
+  transition: 0.3s;
+  padding: 4px 4px;
+  background-color: #000;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 10%;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #44aaee;
+  position: relative;
+}
+.card:hover {
+  box-shadow: 4px 4px 4px 4px rgb(7,7,7);
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    font-size: 25px;
+    color:ivory;
+    text-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+.card_header {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom:20px;
+}
+.title {
+    margin-top: 15%;
+    margin-left: 7%;
+    height: 50px;   
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+    padding: 8px 8px;
+    font-weight: bold;
+}
+.title::before {
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : 0;
+    height  : 1px;
+    width   : 23%;
+    border-bottom:1px solid white;
+}
+.date {
+    padding: 8px 8px;
+    margin-left: 7%;
+    font-size: 23px;
+}
